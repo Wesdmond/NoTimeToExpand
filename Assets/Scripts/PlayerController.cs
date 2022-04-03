@@ -15,12 +15,12 @@ public class PlayerController : MonoBehaviour
     public void OnMovement(InputAction.CallbackContext value)
     {
         Vector2 inputMovement = value.ReadValue<Vector2>();
-        rawInputMovement = new Vector3(inputMovement.x, 0, inputMovement.y);
+        rawInputMovement = new Vector3(inputMovement.x, inputMovement.y, 0);
     }
 
-    public void OnLeftMouse(InputAction.CallbackContext value)
+    public void OnLeftMouse()
     {
-
+        Debug.Log("Left Mouse");
     }
 
     public void OnRightMouse(InputAction.CallbackContext value)
@@ -31,7 +31,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(rawInputMovement * movementSpeed);
-        gameObject.transform.position = gameObject.transform.position + rawInputMovement * movementSpeed;
+        gameObject.transform.position = gameObject.transform.position + rawInputMovement * movementSpeed * 700 * Time.deltaTime;
     }
 }
