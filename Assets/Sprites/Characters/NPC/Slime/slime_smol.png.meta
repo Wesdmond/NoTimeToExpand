@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7a4048d74a49fc3419aaae3d2ba8d553
+guid: e0e3c481eb1b05b4392eff4320913f89
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -38,7 +38,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -133,8 +133,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 20
-        height: 13
+        width: 13
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,8 +142,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46a26fb1fcf33604daa738aaddaa4480
-      internalID: -1390423465
+      spriteID: e6250f67f6318fc44b4ae625ce4c85d5
+      internalID: 452591921
       vertices: []
       indices: 
       edges: []
@@ -152,10 +152,10 @@ TextureImporter:
       name: slime_smol_1
       rect:
         serializedVersion: 2
-        x: 20
+        x: 13
         y: 0
-        width: 20
-        height: 13
+        width: 13
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +163,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 110fdfc5f54d2fb4fb229b643d9e4080
-      internalID: 1487161138
+      spriteID: 37c39e94ede3be74ab8b2faa03ca6d62
+      internalID: 1682149683
       vertices: []
       indices: 
       edges: []
@@ -173,10 +173,10 @@ TextureImporter:
       name: slime_smol_2
       rect:
         serializedVersion: 2
-        x: 40
+        x: 26
         y: 0
-        width: 20
-        height: 13
+        width: 13
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5c590f9c13a2fa4eadd282c4b128181
-      internalID: 1406485816
+      spriteID: aaa08ebc018aea94fac517b3a4c53225
+      internalID: 389522603
       vertices: []
       indices: 
       edges: []
@@ -194,10 +194,10 @@ TextureImporter:
       name: slime_smol_3
       rect:
         serializedVersion: 2
-        x: 60
+        x: 39
         y: 0
-        width: 20
-        height: 13
+        width: 13
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +205,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e438240e32e2d1941b0a458b4cdfca20
-      internalID: 1534651300
+      spriteID: f9696a5d75af5f843bc05ec1856237de
+      internalID: -498399933
       vertices: []
       indices: 
       edges: []
@@ -215,10 +215,10 @@ TextureImporter:
       name: slime_smol_4
       rect:
         serializedVersion: 2
-        x: 80
+        x: 52
         y: 0
-        width: 20
-        height: 13
+        width: 13
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,8 +226,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c63a2889b6da2c45b66ccc08e0ca96c
-      internalID: -2127206972
+      spriteID: bc858cf09c6907340bb3dd13d2832928
+      internalID: 1173950411
       vertices: []
       indices: 
       edges: []
@@ -236,10 +236,10 @@ TextureImporter:
       name: slime_smol_5
       rect:
         serializedVersion: 2
-        x: 100
+        x: 65
         y: 0
-        width: 20
-        height: 13
+        width: 13
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,8 +247,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba56a8a22113d6b46abe8c6b6b66ab03
-      internalID: 1819662597
+      spriteID: f7cf7e8f67fe8c34bb0c31872d8d6af8
+      internalID: -1713256352
       vertices: []
       indices: 
       edges: []
@@ -257,10 +257,10 @@ TextureImporter:
       name: slime_smol_6
       rect:
         serializedVersion: 2
-        x: 120
+        x: 78
         y: 0
-        width: 20
-        height: 13
+        width: 13
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,8 +268,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44c11e789fdcd8841af50b75879aa500
-      internalID: 294181904
+      spriteID: f07b7427c82fac14b8e921544f6a0161
+      internalID: 206713628
       vertices: []
       indices: 
       edges: []
@@ -278,10 +278,10 @@ TextureImporter:
       name: slime_smol_7
       rect:
         serializedVersion: 2
-        x: 140
+        x: 91
         y: 0
-        width: 20
-        height: 13
+        width: 13
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,8 +289,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 760bc9a85b88e304c9963272b39777a5
-      internalID: -1419706599
+      spriteID: b7ef2fc2ea5290b43a66f0eb891a4c2b
+      internalID: 1918433150
       vertices: []
       indices: 
       edges: []
@@ -298,7 +298,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: fe75d8750528e5746a9c57207f18e26c
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -306,14 +306,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      slime_smol_1: 1487161138
-      slime_smol_6: 294181904
-      slime_smol_5: 1819662597
-      slime_smol_0: -1390423465
-      slime_smol_3: 1534651300
-      slime_smol_7: -1419706599
-      slime_smol_2: 1406485816
-      slime_smol_4: -2127206972
+      slime_smol_1: 1682149683
+      slime_smol_6: 206713628
+      slime_smol_5: -1713256352
+      slime_smol_0: 452591921
+      slime_smol_3: -498399933
+      slime_smol_7: 1918433150
+      slime_smol_2: 389522603
+      slime_smol_4: 1173950411
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

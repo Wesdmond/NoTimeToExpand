@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     [Range(0.001f, 0.1f)]
     public float movementSpeed;
 
+    bool isRight = true;
+
     public void OnMovement(InputAction.CallbackContext value)
     {
         Vector2 inputMovement = value.ReadValue<Vector2>();
