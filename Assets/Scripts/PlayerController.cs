@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
         if (inputMovement.y < 0)
             down = true;
-        else if (inputMovement.y > 0)
+        else if (inputMovement.y >= 0)
             down = false;
 
         animator.SetBool("Down", down);
@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
         else if (inputMovement.x > 0)
             spriteRenderer.flipX = true;
 
-        rawInputMovement = new Vector3(inputMovement.x, inputMovement.y, 0);
+        rawInputMovement = new Vector3(inputMovement.x, 0, inputMovement.y);
     }
 
     public void OnLeftMouse()
