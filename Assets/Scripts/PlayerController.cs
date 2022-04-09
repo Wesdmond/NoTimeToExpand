@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
         else if (inputMovement.x > 0)
             spriteRenderer.flipX = true;
 
-        rawInputMovement = new Vector3(inputMovement.x, 0, inputMovement.y);
+        rawInputMovement = new Vector3(inputMovement.x, inputMovement.y, inputMovement.y);
     }
 
     public void OnLeftMouse()
@@ -57,6 +57,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gameObject.transform.position = gameObject.transform.position + rawInputMovement * movementSpeed * 700 * Time.deltaTime;
+        gameObject.transform.position += rawInputMovement * movementSpeed * 700 * Time.deltaTime;
     }
 }
